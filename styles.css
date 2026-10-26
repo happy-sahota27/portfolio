@@ -750,12 +750,12 @@ footer {
 
 /* Final dark layout: hero copy stays left while the portrait occupies the right column. */
 :root {
-  --paper: #0c0f14;
+  --paper: #000000;
   --ink: #f5f7fb;
   --muted: #a7afbd;
   --line: #2a3240;
   --blue: #70a7ff;
-  --blue-soft: #17243b;
+  --blue-soft: #000000;
 }
 
 body,
@@ -817,10 +817,11 @@ footer {
 .preview-heading h2 em, .section-heading h2 em, .contact h2 em { color: var(--blue) !important; }
 .preview-heading p, .project-card p, .timeline-content > p:last-child,
 .about-lead, .skill-groups p:last-child { color: var(--muted); }
-.project-card { background: #141a23; border-color: var(--line); }
-.featured-project { background: var(--blue-soft); border-color: #31568e; }
-.preview-card-light { background: #202936; color: var(--ink); }
-.preview-card-dark { background: #141a23; }
+.project-card { background: #000000; border-color: var(--line); }
+.featured-project { background: #000000; border-color: #31568e; }
+.preview-card-light { background: #000000; color: var(--ink); }
+.preview-card-dark { background: #000000; }
+.preview-card-blue { background: #000000; }
 .preview-card, .preview-card * { color: var(--ink) !important; }
 .hero-details, .contact, footer { border-color: var(--line); }
 .contact-email { color: var(--ink); border-color: var(--blue); }
