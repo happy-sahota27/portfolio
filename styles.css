@@ -787,6 +787,9 @@ footer {
 .hero h1 em { left: 0; margin-left: 0; color: var(--blue) !important; }
 .hero-intro { max-width: 560px; color: var(--muted); line-height: 1.7; margin-bottom: 0; }
 .hero-actions { margin-top: 32px; }
+.hero-skills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.hero-skills span { border: 1px solid var(--line); padding: 6px 11px; color: var(--muted); font-family: var(--sans); font-size: 10px; line-height: 1.2; }
+.hero-skills span:first-child { border-color: var(--blue); color: var(--blue); }
 .hero .text-link { color: var(--ink); border-color: var(--line); }
 .hero-aside {
   position: relative;
