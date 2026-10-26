@@ -804,6 +804,7 @@ footer {
   position: relative;
   top: auto;
   left: auto;
+  margin-left: clamp(-70px, -4vw, -24px);
   width: min(130%, 680px);
   height: 700px;
   transform: none;
@@ -838,6 +839,6 @@ footer { color: var(--muted); }
   .hero-copy { width: 100%; max-width: none; }
   .hero h1 { max-width: 100%; font-size: clamp(38px, 10vw, 56px); line-height: 1.08; }
   .hero-aside { min-height: 560px; margin-top: 40px; justify-content: center; }
-  .hero-aside .portrait-mark { width: min(120%, 520px); height: 560px; }
+  .hero-aside .portrait-mark { width: min(120%, 520px); height: 560px; margin-left: 0; }
   .hero-aside .portrait-mark img { top: 0; bottom: auto; width: min(145%, 680px); }
 }
