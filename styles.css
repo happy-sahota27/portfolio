@@ -801,15 +801,15 @@ footer {
   position: relative;
   top: auto;
   left: auto;
-  width: min(120%, 620px);
-  height: 650px;
+  width: min(130%, 680px);
+  height: 700px;
   transform: none;
   opacity: 1;
 }
 .hero-aside .portrait-mark img {
   top: 0;
   bottom: auto;
-  width: min(140%, 760px);
+  width: min(150%, 820px);
   mix-blend-mode: normal;
 }
 .hero-details { display: none; }
@@ -834,7 +834,7 @@ footer { color: var(--muted); }
   .hero.section-grid { display: block; min-height: auto; padding: 72px 0 70px; }
   .hero-copy { width: 100%; max-width: none; }
   .hero h1 { max-width: 100%; font-size: clamp(38px, 10vw, 56px); line-height: 1.08; }
-  .hero-aside { min-height: 520px; margin-top: 40px; justify-content: center; }
-  .hero-aside .portrait-mark { width: min(112%, 480px); height: 520px; }
-  .hero-aside .portrait-mark img { top: 0; bottom: auto; width: min(135%, 620px); }
+  .hero-aside { min-height: 560px; margin-top: 40px; justify-content: center; }
+  .hero-aside .portrait-mark { width: min(120%, 520px); height: 560px; }
+  .hero-aside .portrait-mark img { top: 0; bottom: auto; width: min(145%, 680px); }
 }
