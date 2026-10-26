@@ -776,7 +776,7 @@ footer {
 .hero.section-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(300px, .7fr);
-  gap: clamp(32px, 5vw, 72px);
+  gap: clamp(18px, 3vw, 42px);
   min-height: 650px;
   padding: 92px 0 96px;
   border-bottom: 1px solid var(--line);
